@@ -1,5 +1,5 @@
-/* Bulma Utilities */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;0,800;1,200&display=swap");
+/* Bulma Utilities */
 .navbar-link:not(.is-arrowless)::after {
   border: 3px solid transparent;
   border-radius: 2px;
@@ -140,7 +140,7 @@ input,
 optgroup,
 select,
 textarea {
-  font-family: BlinkMacSystemFont, -apple-system, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 code,
@@ -151,14 +151,14 @@ pre {
 }
 
 body {
-  color: hsl(0deg, 0%, 29%);
+  color: #A68F65;
   font-size: 1em;
   font-weight: 400;
   line-height: 1.5;
 }
 
 a {
-  color: hsl(229deg, 53%, 53%);
+  color: #F26B6B;
   cursor: pointer;
   text-decoration: none;
 }
@@ -216,7 +216,7 @@ fieldset {
 pre {
   -webkit-overflow-scrolling: touch;
   background-color: hsl(0deg, 0%, 96%);
-  color: hsl(0deg, 0%, 29%);
+  color: #A68F65;
   font-size: 0.875em;
   overflow-x: auto;
   padding: 1.25rem 1.5rem;
@@ -481,7 +481,7 @@ table th {
   }
 }
 .navbar.is-primary {
-  background-color: hsl(171deg, 100%, 41%);
+  background-color: #8090BF;
   color: #fff;
 }
 .navbar.is-primary .navbar-brand > .navbar-item,
@@ -492,7 +492,7 @@ table th {
 .navbar.is-primary .navbar-brand .navbar-link:focus,
 .navbar.is-primary .navbar-brand .navbar-link:hover,
 .navbar.is-primary .navbar-brand .navbar-link.is-active {
-  background-color: #00b89c;
+  background-color: #6f81b6;
   color: #fff;
 }
 .navbar.is-primary .navbar-brand .navbar-link::after {
@@ -518,7 +518,7 @@ table th {
 .navbar.is-primary .navbar-end .navbar-link:focus,
 .navbar.is-primary .navbar-end .navbar-link:hover,
 .navbar.is-primary .navbar-end .navbar-link.is-active {
-    background-color: #00b89c;
+    background-color: #6f81b6;
     color: #fff;
   }
   .navbar.is-primary .navbar-start .navbar-link::after,
@@ -528,16 +528,16 @@ table th {
   .navbar.is-primary .navbar-item.has-dropdown:focus .navbar-link,
 .navbar.is-primary .navbar-item.has-dropdown:hover .navbar-link,
 .navbar.is-primary .navbar-item.has-dropdown.is-active .navbar-link {
-    background-color: #00b89c;
+    background-color: #6f81b6;
     color: #fff;
   }
   .navbar.is-primary .navbar-dropdown a.navbar-item.is-active {
-    background-color: hsl(171deg, 100%, 41%);
+    background-color: #8090BF;
     color: #fff;
   }
 }
 .navbar.is-link {
-  background-color: hsl(229deg, 53%, 53%);
+  background-color: #F26B6B;
   color: #fff;
 }
 .navbar.is-link .navbar-brand > .navbar-item,
@@ -548,7 +548,7 @@ table th {
 .navbar.is-link .navbar-brand .navbar-link:focus,
 .navbar.is-link .navbar-brand .navbar-link:hover,
 .navbar.is-link .navbar-brand .navbar-link.is-active {
-  background-color: #3a51bb;
+  background-color: #f05454;
   color: #fff;
 }
 .navbar.is-link .navbar-brand .navbar-link::after {
@@ -574,7 +574,7 @@ table th {
 .navbar.is-link .navbar-end .navbar-link:focus,
 .navbar.is-link .navbar-end .navbar-link:hover,
 .navbar.is-link .navbar-end .navbar-link.is-active {
-    background-color: #3a51bb;
+    background-color: #f05454;
     color: #fff;
   }
   .navbar.is-link .navbar-start .navbar-link::after,
@@ -584,11 +584,11 @@ table th {
   .navbar.is-link .navbar-item.has-dropdown:focus .navbar-link,
 .navbar.is-link .navbar-item.has-dropdown:hover .navbar-link,
 .navbar.is-link .navbar-item.has-dropdown.is-active .navbar-link {
-    background-color: #3a51bb;
+    background-color: #f05454;
     color: #fff;
   }
   .navbar.is-link .navbar-dropdown a.navbar-item.is-active {
-    background-color: hsl(229deg, 53%, 53%);
+    background-color: #F26B6B;
     color: #fff;
   }
 }
@@ -870,7 +870,7 @@ body.has-navbar-fixed-bottom {
 }
 
 .navbar-burger {
-  color: hsl(0deg, 0%, 29%);
+  color: #A68F65;
   -moz-appearance: none;
   -webkit-appearance: none;
   appearance: none;
@@ -923,7 +923,7 @@ body.has-navbar-fixed-bottom {
 
 .navbar-item,
 .navbar-link {
-  color: hsl(0deg, 0%, 29%);
+  color: #A68F65;
   display: block;
   line-height: 1.5;
   padding: 0.5rem 0.75rem;
@@ -945,7 +945,7 @@ a.navbar-item:focus, a.navbar-item:focus-within, a.navbar-item:hover, a.navbar-i
 .navbar-link:hover,
 .navbar-link.is-active {
   background-color: hsl(0deg, 0%, 98%);
-  color: hsl(229deg, 53%, 53%);
+  color: #F26B6B;
 }
 
 .navbar-item {
@@ -969,14 +969,14 @@ a.navbar-item:focus, a.navbar-item:focus-within, a.navbar-item:hover, a.navbar-i
 }
 .navbar-item.is-tab:focus, .navbar-item.is-tab:hover {
   background-color: transparent;
-  border-bottom-color: hsl(229deg, 53%, 53%);
+  border-bottom-color: #F26B6B;
 }
 .navbar-item.is-tab.is-active {
   background-color: transparent;
-  border-bottom-color: hsl(229deg, 53%, 53%);
+  border-bottom-color: #F26B6B;
   border-bottom-style: solid;
   border-bottom-width: 3px;
-  color: hsl(229deg, 53%, 53%);
+  color: #F26B6B;
   padding-bottom: calc(0.5rem - 3px);
 }
 
@@ -989,7 +989,7 @@ a.navbar-item:focus, a.navbar-item:focus-within, a.navbar-item:hover, a.navbar-i
   padding-right: 2.5em;
 }
 .navbar-link:not(.is-arrowless)::after {
-  border-color: hsl(229deg, 53%, 53%);
+  border-color: #F26B6B;
   margin-top: -0.375em;
   right: 1.125em;
 }
@@ -1104,7 +1104,7 @@ body.has-navbar-fixed-bottom-touch {
   }
   .navbar.is-transparent .navbar-dropdown a.navbar-item.is-active {
     background-color: hsl(0deg, 0%, 96%);
-    color: hsl(229deg, 53%, 53%);
+    color: #F26B6B;
   }
 
   .navbar-burger {
@@ -1182,7 +1182,7 @@ body.has-navbar-fixed-bottom-touch {
   }
   .navbar-dropdown a.navbar-item.is-active {
     background-color: hsl(0deg, 0%, 96%);
-    color: hsl(229deg, 53%, 53%);
+    color: #F26B6B;
   }
   .navbar.is-spaced .navbar-dropdown, .navbar-dropdown.is-boxed {
     border-radius: 6px;
