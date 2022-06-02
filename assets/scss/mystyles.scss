@@ -33,6 +33,20 @@ $fullhd-enabled: false;
 
 //mixins
 
+@mixin centerCol {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+//custom
+
+.centerColumn {
+    @include centerCol;
+}
+
 //Bulma
 @import "../../node_modules/bulma/sass/utilities/_all.sass";
 @import "../../node_modules/bulma/sass/base/_all.sass";
