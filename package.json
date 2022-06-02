@@ -1,7 +1,7 @@
 {
   "name": "mybulma",
   "version": "1.0.0",
-  "main": "scss/mystyles.scss",
+  "main": "sass/mystyles.scss",
   "license": "MIT",
   "dependencies": {
     "bulma": "^0.9.4",
@@ -10,7 +10,7 @@
     "sass": "^1.52.1"
   },
   "scripts": {
-    "css-build": "node-sass --omit-source-map-url scss/mystyles.scss css/mystyles.css",
+    "css-build": "node-sass --omit-source-map-url assets/scss/mystyles.scss assets/css/mystyles.css",
     "css-watch": "npm run css-build -- --watch",
     "start": "npm run css-watch",
     "sass": "sass --watch assets/scss:assets/css",

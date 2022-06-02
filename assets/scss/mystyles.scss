@@ -1,5 +1,11 @@
 @charset "utf-8";
-@import "../node_modules/bulma/bulma.sass";
+
+
+
+//Bulma
+@import "../../node_modules/bulma/sass/utilities/_all.sass";
+@import "../../node_modules/bulma/sass/base/_all.sass";
+@import "../../node_modules/bulma/sass/components/navbar.sass";
 
 
 
@@ -7,9 +13,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;0,800;1,200&display=swap');
 
 //icons
-@import "./fontawesome/scss/fontawesome.scss";
-@import "./fontawesome/scss/solid.scss";
-@import "./fontawesome/scss/brands.scss";
+// @import "scss/fontawesome.scss";
+// @import "./fontawesome/scss/fontawesome.scss";
+// @import "./fontawesome/scss/solid.scss";
+// @import "./fontawesome/scss/brands.scss";
 
 //brand colors
 $purple: #8090BF;
@@ -26,3 +33,4 @@ $primary: $purple;
 $link: $pink;
 $widescreen-enabled: false;
 $fullhd-enabled: false;
+
