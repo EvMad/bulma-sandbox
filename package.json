@@ -2,5 +2,15 @@
   "dependencies": {
     "bulma": "^0.9.4",
     "sass": "^1.52.1"
+  },
+
+  "scripts": {
+    "css-build": "node-sass --omit-source-map-url sass/mystyles.scss css/mystyles.css",
+    "css-watch": "npm run css-build -- --watch",
+    "start": "npm run css-watch"
   }
+
+  
 }
+
+
