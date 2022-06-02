@@ -2,3 +2,19 @@
 @import "../node_modules/bulma/bulma.sass";
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;0,800;1,200&display=swap');
+
+//brand colors
+$purple: #8090BF;
+$pink: #F26B6B;
+$brown: #A68F65;
+$beige-light: #8B8176;
+$beige-lighter: #F2DC99;
+
+// Update Bulma's global variables
+$family-sans-serif: 'Poppins', sans-serif;
+$grey-dark: $brown;
+$grey-light: $beige-light;
+$primary: $purple;
+$link: $pink;
+$widescreen-enabled: false;
+$fullhd-enabled: false;
