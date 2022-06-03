@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;0,800;1,200" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
 
     <link rel="stylesheet" href="assets/css/mystyles.css">
     <!--links end-->
@@ -19,7 +20,7 @@
     <nav class="navbar has-shadow is-fixed-top" role="navigation" aria-label="main navigation">
         <div class="navbar-brand">
           <a class="navbar-item" href="https://github.com/EvMad">
-            <i class="fa-brands fa-github-square"></i>
+            <i class="fa-brands fa-github"></i>
           </a>
       
           <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
@@ -88,6 +89,51 @@
 
            <!--left side-->
         <div class="column is-quarter-desktop">
+            <div class="card">
+                <div class="card-content">
+                  <div class="media">
+                    <div class="media-left">
+                      <figure class="image is-48x48">
+                        <img src="assets/images/BearFace.jpg" alt="Bear Face Profile">
+                      </figure>
+                    </div>
+                    <div class="media-content">
+                      <p class="title is-4">John Smith</p>
+                      <p class="subtitle is-6">@johnsmith</p>
+                    </div>
+                  </div>
+              
+                  <div class="content">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Phasellus nec iaculis mauris. <a>@bulmaio</a>.
+                    <a href="#">#css</a> <a href="#">#responsive</a>
+                    <br>
+                    <time datetime="2016-1-1">11:09 PM - 1 Jan 2016</time>
+                  </div>
+                </div>
+              </div>
+        </div>
+        <!--end left-->
+
+        <div class="column is-half-desktop has-text-primary centerColumn">
+            <div class="content">
+                <h1>Center Column</h1>
+                <figure class="image is-square">
+                    <img src="assets/images/whiteWater.jpg" alt="white water rafting">
+                  </figure>
+                <p>"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
+                
+            </div>
+
+        </div>
+
+        <!--right side-->
+
+
+
+
+        <div class="column is-quarter-desktop has-text-primary">
+
             <article class="media">
                 <figure class="media-left">
                   <p class="image is-64x64">
@@ -116,51 +162,35 @@
                   </nav>
                 </div>
               </article>
-        </div>
-        <!--end left-->
-
-        <div class="column is-half-desktop has-text-primary centerColumn">
-            <div class="content">
-                <h1>Center Column</h1>
-                <figure class="image is-square">
-                    <img src="assets/images/whiteWater.jpg" alt="white water rafting">
-                  </figure>
-                <p>"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
-                
-            </div>
-
-        </div>
-
-        <!--right side-->
-        <div class="column is-quarter-desktop has-text-primary">
-            <div class="card">
-                <div class="card-image">
-                  <!-- <figure class="image is-4by3">
-                    <img src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image">
-                  </figure> -->
-                </div>
-                <div class="card-content">
-                  <div class="media">
-                    <div class="media-left">
-                      <figure class="image is-48x48">
-                        <img src="assets/images/BearFace.jpg" alt="Bear Face Profile">
-                      </figure>
-                    </div>
-                    <div class="media-content">
-                      <p class="title is-4">John Smith</p>
-                      <p class="subtitle is-6">@johnsmith</p>
-                    </div>
+              <article class="media">
+                <figure class="media-left">
+                  <p class="image is-64x64">
+                    <img src="assets/images/deer.jpg" alt="buck">
+                  </p>
+                </figure>
+                <div class="media-content">
+                  <div class="field">
+                    <p class="control">
+                      <textarea class="textarea" placeholder="Add a comment..."></textarea>
+                    </p>
                   </div>
-              
-                  <div class="content">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Phasellus nec iaculis mauris. <a>@bulmaio</a>.
-                    <a href="#">#css</a> <a href="#">#responsive</a>
-                    <br>
-                    <time datetime="2016-1-1">11:09 PM - 1 Jan 2016</time>
-                  </div>
+                  <nav class="level">
+                    <div class="level-left">
+                      <div class="level-item">
+                        <a class="button is-info">Submit</a>
+                      </div>
+                    </div>
+                    <div class="level-right">
+                      <div class="level-item">
+                        <label class="checkbox">
+                          <input type="checkbox"> Press enter to submit
+                        </label>
+                      </div>
+                    </div>
+                  </nav>
                 </div>
-              </div>
+              </article>
+          
         </div>
         <!--end right-->
       </div>
