@@ -18,6 +18,15 @@
   font-size: 18px;
 }
 
+@media (max-width: 599px) {
+  .sideColumn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
 /* Bulma Utilities */
 .navbar-link:not(.is-arrowless)::after {
   border: 3px solid transparent;
