@@ -39,12 +39,23 @@ $fullhd-enabled: false;
     justify-content: center;
     align-items: center;
     text-align: center;
+
+   
 }
 
 //custom
 
 .centerColumn {
     @include centerCol;
+
+    &h1 {
+        color: $purple;
+    }
+
+    &p {
+        line-height: 24px;
+        font-size: 18px;
+    }
 }
 
 //Bulma

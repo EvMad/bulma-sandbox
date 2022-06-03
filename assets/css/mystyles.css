@@ -10,6 +10,13 @@
   align-items: center;
   text-align: center;
 }
+.centerColumnh1 {
+  color: #8090BF;
+}
+.centerColumnp {
+  line-height: 24px;
+  font-size: 18px;
+}
 
 /* Bulma Utilities */
 .navbar-link:not(.is-arrowless)::after {
